@@ -1,0 +1,3 @@
+{
+  "/games/:gameId/missions": "/missions?game_id=:gameId"
+}
