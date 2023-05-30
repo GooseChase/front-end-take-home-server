@@ -3,12 +3,15 @@
     {
       "id": 1,
       "name": "5th Grade Math Fun!",
-      "description": "Let's have some fun by going on a hunt! Solve these math problems and earn points along the way!"
+      "description": "Let's have some fun by going on a hunt! Solve these math problems and earn points along the way!",
+      "photo": "math_fun_game.png"
     },
     {
       "id": 2,
       "name": "Toronto landmark hunt",
-      "description": "This interactive quiz tour will take you to all the major landmarks and attractions the city has to offer!"
+      "description": "This interactive quiz tour will take you to all the major landmarks and attractions the city has to offer!",
+      "location": "Toronto, ON"
+      "photo": "toronto_game.png"
     }
   ],
   "missions": [
@@ -18,7 +21,11 @@
       "name": "Barrels on Board",
       "description": "The Mayflower was one of the largest ships of her time. It could carry about 180 large barrels on board. If The pilgrims put the barrels in 15 rows, how many barrels would have been in each row?",
       "points": 100,
-      "category": "text"
+      "category": "text",
+      "accepted_answers": [
+        "12",
+        "twelve"
+      ]
     },
     {
       "id": 2,
@@ -34,7 +41,11 @@
       "name": "Groovy Potatoes",
       "description": "What good is Groovy Gravy without mashed potatoes? It takes 23 potatoes to make a batch of Grandma's Groovy Mashed Potatoes. If there is a shipment of 3,569 potatoes, how many batches of potatoes can be made?",
       "points": 200,
-      "category": "text"
+      "category": "text",
+      "accepted_answers: [
+        "155",
+        "one hundred and fifty five"
+      ]
     },
     {
       "id": 4,
@@ -42,7 +53,9 @@
       "name": "The tallest tower",
       "description": "This building stands above all others downtown and gives a view for miles on its observation deck. You'll need to get within 100m of this tower to complete this mission.",
       "points": 200,
-      "category": "gps"
+      "category": "gps",
+      "lattitude": "...",
+      "longitude": "..."
     },
     {
       "id": 5,
@@ -50,7 +63,7 @@
       "name": "Trash Pandas",
       "description": "Raccoons are some of the city's feistiest residents! Snap a picture of an elusive trash panda to secure these points",
       "points": 200,
-      "category": "text"
+      "category": "photo+video"
     }
   ]
 }
