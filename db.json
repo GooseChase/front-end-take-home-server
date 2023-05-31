@@ -10,7 +10,7 @@
       "id": 2,
       "name": "Toronto landmark hunt",
       "description": "This interactive quiz tour will take you to all the major landmarks and attractions the city has to offer!",
-      "location": "Toronto, ON"
+      "location": "Toronto, ON",
       "photo": "toronto_game.png"
     }
   ],
@@ -42,7 +42,7 @@
       "description": "What good is Groovy Gravy without mashed potatoes? It takes 23 potatoes to make a batch of Grandma's Groovy Mashed Potatoes. If there is a shipment of 3,569 potatoes, how many batches of potatoes can be made?",
       "points": 200,
       "category": "text",
-      "accepted_answers: [
+      "accepted_answers": [
         "155",
         "one hundred and fifty five"
       ]
