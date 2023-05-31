@@ -54,8 +54,9 @@
       "description": "This building stands above all others downtown and gives a view for miles on its observation deck. You'll need to get within 100m of this tower to complete this mission.",
       "points": 200,
       "category": "gps",
-      "lattitude": "...",
-      "longitude": "..."
+      "latitude": "43.6532",
+      "longitude": "-79.3832",
+      "location": "Toronto, ON"
     },
     {
       "id": 5,
